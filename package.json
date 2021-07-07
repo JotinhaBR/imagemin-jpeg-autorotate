@@ -1,0 +1,28 @@
+{
+  "name": "imagemin-jpeg-autorotate",
+  "version": "1.0.0",
+  "description": "plugin imagein auto rotation of images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JotinhaBR/imagemin-jpeg-autorotate.git"
+  },
+  "keywords": [
+    "imagemin",
+    "imageinplugin"
+  ],
+  "author": "“Rubens <“rubens.flinco@oulook.com.br”>",
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/JotinhaBR/imagemin-jpeg-autorotate/issues"
+  },
+  "homepage": "https://github.com/JotinhaBR/imagemin-jpeg-autorotate#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "is-jpg": "^2.0.0",
+    "jpeg-autorotate": "^7.1.1"
+  }
+}
