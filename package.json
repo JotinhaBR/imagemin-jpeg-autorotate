@@ -1,6 +1,6 @@
 {
   "name": "imagemin-jpeg-autorotate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "plugin imagein auto rotation of images",
   "main": "index.js",
   "scripts": {
