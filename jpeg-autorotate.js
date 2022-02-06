@@ -1,11 +1,9 @@
-const Promise = require('Bluebird');
+const Promise = require('bluebird');
 const jo = require('jpeg-autorotate');
 
-const jpegAutorotate = buffer => {
+const jpegAutorotate = (buffer, options) => {
     return new Promise((resolve, reject) => {
-        jo.rotate(buffer, {
-            quality: 100
-        }, (err, newBuffer) => {
+        jo.rotate(buffer, options, (err, newBuffer) => {
             if(err) {
                 return reject(err);
             }
